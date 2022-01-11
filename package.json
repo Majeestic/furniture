@@ -1,12 +1,12 @@
 {
   "name": "gulp-start",
   "version": "1.0.0",
-  "description": "",
+  "description": "Furnitura landing-page promo",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Vadym Prokopchuk",
+  "author": "Shvets Kateryna, Pravodelov Sergey",
   "license": "ISC",
   "devDependencies": {
     "browser-sync": "^2.26.13",
