@@ -1,0 +1,13 @@
+$title-color: #34383D;
+$roboto-font: 'Roboto', sans-serif;
+$montserrat-font: 'Montserrat', sans-serif;
+$beige-color: #CDA861;
+$pink-color: #F5EEE1;
+$white-color: #FFFFFF;
+$pink-bg:rgba(205, 168, 97, 0.1);
+$grey-bg: #D6D5D6;
+
+%text-color{
+    color: $title-color;
+    opacity: 0.8;
+}
