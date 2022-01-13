@@ -11,3 +11,18 @@ $grey-bg: #D6D5D6;
     color: $title-color;
     opacity: 0.8;
 }
+
+%beige-btn{
+    padding: 8px 20px;
+    border: 2px solid #CDA861;
+    border-radius: 50px;
+    text-decoration: none;
+    font-family: $montserrat-font;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    background-color: $beige-color;
+    color: $title-color;
+}

@@ -36,9 +36,13 @@ h1, h2, h3, h4, h5, h6, div, header, section, button, span, p, a{
 }
 
 .container{
-  max-width: 1160px;
+  max-width: 1200px;
   margin: 0 auto;
   padding: 0;
+}
+
+.flex{
+	display: flex;
 }
 
 
