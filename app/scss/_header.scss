@@ -1,6 +1,6 @@
 .header{
-    background: url(../images/bg-header.jpg) no-repeat center;
-    height: 120vh;
+    background: url(../images/bg.png) no-repeat center top / cover;
+    height: 100vh;
     background-size: 100%;
 }
 
@@ -64,13 +64,13 @@
         padding: 8px 20px;
         border: 2px solid #CDA861;
         border-radius: 50px;
-        margin-right: 20px;
+        margin-right: 18px;
         text-decoration: none;
         color: $white-color;
         font-family: $montserrat-font;
         font-style: normal;
         font-weight: 700;
-        font-size: 18px;
+        font-size: 14px;
         line-height: 27px;
         text-align: center;
     }
@@ -104,10 +104,10 @@
 }
 
 .header__menu_navbar{
-    margin-left: 25px;
+    margin-left: 20px;
 
     li{
-        margin: 0 20px;
+        margin: 0 19px;
     }
 
     li a{
@@ -121,12 +121,12 @@
         &:hover{
             color: $beige-color;
             border-bottom: 2px solid $beige-color;
-            transition: 1.5s;
-            -webkit-transition: 1.5s;
-            -moz-transition: 1.5s;
-            -ms-transition: 1.5s;
-            -o-transition: 1.5s;
-        }
+            transition: 1.0s;
+            -webkit-transition: 1.0s;
+            -moz-transition: 1.0s;
+            -ms-transition: 1.0s;
+            -o-transition: 1.0s;
+}
     }
 }
 
@@ -136,12 +136,12 @@
     flex-wrap: wrap;
 
     li:first-child{
-        padding-right: 35px;
+        padding-right: 30px;
     }
 
     li img{
-        width: 26px;
-        height: 26px;
+        width: 24px;
+        height: 24px;
     }
 }
 
@@ -171,8 +171,10 @@ h1{
     font-weight: 600;
     font-size: 60px;
     color: $title-color;
+    line-height: 68px;
 
     span{
         color: $beige-color;
+        text-decoration: underline;
     }
 }
