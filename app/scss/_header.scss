@@ -4,11 +4,11 @@
     background-size: 100%;
 }
 
-.header__top{
+.header-top{
     margin-top: 20px;
 }
 
-.header__top_left{
+.header-top__left{
     width: 50%;
     font-family: $roboto-font;
     font-weight: 500;
@@ -50,7 +50,7 @@
     }
 }
 
-.header__top_right{
+.header-top__right{
     margin-top: 10px;
     width: 50%;
 
@@ -60,7 +60,7 @@
         flex-wrap: wrap;
     }
 
-    .header__btn_currency a{
+    .header-btn__currency a{
         padding: 8px 20px;
         border: 2px solid #CDA861;
         border-radius: 50px;
@@ -75,12 +75,12 @@
         text-align: center;
     }
 
-    .header__btn_account a{
+    .header-btn__account a{
         @extend %beige-btn;
     }
 }
 
-.header__menu{
+.header-menu{
     margin-top: 20px;
 
     nav{
@@ -90,7 +90,7 @@
     }
 }
 
-.header__menu_logo{
+.header-menu__logo{
     border: 1px solid $title-color;
     background-color: $title-color;
     font-family: $roboto-font;
@@ -103,7 +103,7 @@
     padding: 6px 45px;
 }
 
-.header__menu_navbar{
+.header-menu__navbar{
     margin-left: 20px;
 
     li{
@@ -130,7 +130,7 @@
     }
 }
 
-.header__menu_icons{
+.header-menu__icons{
     justify-content: flex-end;
     flex-direction: row;
     flex-wrap: wrap;
