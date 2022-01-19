@@ -1,0 +1,29 @@
+.sell{
+    margin: 180px 0;
+
+    h3{
+        text-transform: uppercase;
+        text-align: center;
+        font-size: 30px;
+        color: $title-color;
+        font-family: $montserrat-font;
+}
+
+    p{
+        @extend %text-color;
+        font-family: $roboto-font;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 22px;
+        line-height: 26px;
+        text-align: center;
+        margin-top: 32px;
+    }
+}
+
+.sell__line{
+    width: 410px;
+    height: 2px;
+    background-color: $beige-color;
+    margin: 5px auto;
+}
