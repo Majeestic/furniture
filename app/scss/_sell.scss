@@ -27,3 +27,102 @@
     background-color: $beige-color;
     margin: 5px auto;
 }
+
+.sell-carousel{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 41px;
+}
+
+.sell-carousel__item{
+    width: 150px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+
+.sell__bg{
+    position: relative;
+    width: 150px;
+    height: 89px;
+    background: $grey-color;
+    border-radius: 30px;
+
+    img{
+        position: absolute;
+        width: 78px;
+        height: auto;
+        left: 34px;
+        top: -22px;
+    }
+
+    p{
+        font-family: $roboto-font;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 28px;
+        letter-spacing: 0em;
+        color: $title-color;
+        //padding-top: 40px;
+        padding-top: 54px;
+
+    }
+}
+
+.sell__rate{
+    justify-content: center;
+    margin-top: 20px;
+
+    span{
+        margin: 0 4px;
+
+        img{
+            width: 20px;
+            height: 18px;
+        }
+    }
+}
+
+.sell__price{
+    font-family: $montserrat-font;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 32px;
+    text-align: center;
+    color: $title-color;
+    margin: 15px 0;
+}
+
+.sell__text{
+    @extend %text-color;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    text-align: center;
+}
+
+.sell__btn{
+    margin-top: 20px;
+}
+
+.sell__btn a{
+    padding: 7px 38px;
+    border: 2px solid #CDA861;
+    border-radius: 50px;
+    text-decoration: none;
+    color: $title-color;
+    font-family: $montserrat-font;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 27px;
+    text-align: center;
+
+    a:hover{
+        background-color: $beige-color;
+    }
+}
