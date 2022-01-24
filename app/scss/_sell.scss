@@ -37,23 +37,25 @@
 
 .sell-carousel__item{
     width: 150px;
-    display: block;
-    justify-content: center;
-    align-items: center;
+    margin: 0 20px;
 }
 
 .sell__bg{
     position: relative;
     width: 150px;
-    height: 89px;
+    height: 99px;
     background: $grey-color;
     border-radius: 30px;
+
+    &:hover{
+        background: $beige-color;
+    }
 
     img{
         position: absolute;
         width: 78px;
         height: auto;
-        left: 34px;
+        left: 25%;
         top: -22px;
     }
 
@@ -66,7 +68,7 @@
         letter-spacing: 0em;
         color: $title-color;
         //padding-top: 40px;
-        padding-top: 54px;
+        padding-top: 60px;
 
     }
 }
@@ -76,7 +78,7 @@
     margin-top: 20px;
 
     span{
-        margin: 0 4px;
+        margin: 0 3px;
 
         img{
             width: 20px;
@@ -107,11 +109,13 @@
 
 .sell__btn{
     margin-top: 20px;
+    display: flex;
+    justify-content: center;
 }
 
-.sell__btn a{
-    padding: 7px 38px;
-    border: 2px solid #CDA861;
+.sell__link{
+    padding: 6px 28px;
+    border: 1px solid #CDA861;
     border-radius: 50px;
     text-decoration: none;
     color: $title-color;
@@ -121,8 +125,8 @@
     font-size: 12px;
     line-height: 27px;
     text-align: center;
+}
 
-    a:hover{
-        background-color: $beige-color;
-    }
+.sell__link:hover{
+    background-color: $beige-color;
 }
