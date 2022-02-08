@@ -9,12 +9,12 @@
         font-family: $montserrat-font;
 }
 
-    p{
+    .featured-product__title{
         @extend %text-color;
         font-family: $roboto-font;
         font-style: normal;
         font-weight: 500;
-        font-size: 22px;
+        font-size: 20px;
         line-height: 26px;
         text-align: center;
         margin-top: 32px;
@@ -38,4 +38,22 @@
     margin: 40px;
     display: flex;
     flex-direction: column;
+
+    h5{
+        font-family: $roboto-font;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        color: $title-color;
+        margin-top: 30px;
+    }
+
+    p{
+        font-family: $roboto-font;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        color: $title-color;
+        margin: 15px 0;
+    }
 }
