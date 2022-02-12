@@ -2,12 +2,8 @@
     margin: 180px 0;
 
     h3{
-        text-transform: uppercase;
-        text-align: center;
-        font-size: 30px;
-        color: $title-color;
-        font-family: $montserrat-font;
-}
+        @extend %h3-style;
+    }
 
     p{
         @extend %text-color;

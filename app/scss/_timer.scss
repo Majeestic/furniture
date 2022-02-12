@@ -1,0 +1,31 @@
+.timer-section{
+    background: url(../images/bg-timer.jpg) no-repeat center center ;
+    height: 100vh;
+    background-size: 100%;
+    width: auto;
+    box-sizing: border-box;
+    border-radius: 50px;
+    padding-top: 70px;
+
+    h3{
+        @extend %h3-style;
+        font-weight: bold;
+    }
+}
+
+.timer-button{
+    display: flex;
+    justify-content: center;
+    margin-top: 57px;
+}
+
+.timer-button__btn{
+    @extend %beige-btn;
+    padding: 6px 26px;
+    cursor: pointer;
+    
+    &:hover{
+        background-color: $white-color;
+        border: 1px solid $beige-color;
+    }
+}
