@@ -14,6 +14,14 @@ $grey-color: #F2F1F1;
     opacity: 0.8;
 }
 
+%h3-style{
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 30px;
+    color: $title-color;
+    font-family: $montserrat-font;
+}
+
 %beige-btn{
     padding: 8px 20px;
     border: 2px solid #CDA861;
